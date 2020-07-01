@@ -1,0 +1,98 @@
+/* Планшеты 728-960px */
+@media screen and (max-width: 960px) {
+	.container {
+		width: 90%;
+	}
+
+	nav {
+		display: none;
+	}
+
+	.background {
+		width: 80%;
+	}
+	
+	.merits, .communication {
+		float: left;
+		width: 100%;
+	}
+
+	.merit__item {
+		width: 33%;
+		margin-right: 0;
+	}
+ 	
+	.communication__links {
+		margin-right: 0;
+		width: 40%;
+	}
+
+ 	.skill__item {
+ 		width: 50%;
+ 		margin-right: 0;
+ 	}
+
+ 	.skill__item:nth-child(1),
+ 	.skill__item:nth-child(2) {
+ 		margin-bottom: 35px;
+ 	}
+
+ 	.work_wrap:nth-child(2) {
+ 		float: right;
+ 		margin-bottom: 40px;
+ 	}
+
+	.work_wrap:nth-child(1) {
+		margin-bottom: 40px;
+	}
+
+ 	.work_wrap:nth-child(3) {
+ 		float: none;
+ 		margin: 0 auto;
+ 	}
+}
+
+
+/* Телефоны 360-728px */
+/* 360 - норм работа */
+@media screen and (max-width: 728px) {
+	.container {
+		width: 90%;
+	}
+
+	.logo {
+		margin-right: 0;
+	}
+
+	.background {
+		width: 95%;
+	}
+
+	.merit__item {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.merit__item:nth-child(3) {
+		margin-bottom: 0;
+	}
+
+	.communication__appeal {
+		display: none;
+	}
+
+	.skill__item, .skill__item:nth-child(1), .skill__item:nth-child(2){
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.skill__item:nth-child(4) {
+		margin-bottom: 0;
+	}
+
+	.work_wrap, .work_wrap:nth-child(2) {
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 40px;
+	}
+}
